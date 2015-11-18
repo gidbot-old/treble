@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="1.0.3" date="2015-11-12">
+        <change>Added Option for disable opening and collapsing post in archive view</change>
+        <change>Fixed Contact Form</change>
+        <change>Added page template full width</change>
+    </release>
+    <release version="1.0.2" date="2015-11-05">
+        <change>Bundled Fresh Performance Cache Plugin</change>
+    </release>
+    <release version="1.0.1" date="2015-11-05">
+        <change>Comment reply link fixed</change>
+    </release>
+    <release version="1.0.0" date="2015-11-02">
+        <change>Initial release</change>
+    </release>
+</changelog>

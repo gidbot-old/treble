@@ -1,0 +1,46 @@
+.contact-form-1.ff-block 	{
+	margin: 0 0 18px 0;
+}
+
+.contact-form-1.ff-block p 	{
+	padding: 0;
+	margin: 0;
+}
+
+.contact-form-1.ff-block .ff-email-has-been-sent,
+.contact-form-1.ff-block .ff-email-failed 	{
+	display: none;
+
+    background-color: #272728;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 34px 0;
+    padding: 4px 17px;
+}
+
+
+/* ********** */
+/* RESPONSIVE */
+/* ********** */
+
+@media (min-width: 992px) {
+
+	.contact-form-1.ff-block .contact-form-1__p-email,
+	.contact-form-1.ff-block .contact-form-1__p-subject 	{
+		width: 50%;
+		float: left;
+	}
+
+	.contact-form-1.ff-block .contact-form-1__p-email 	{
+		padding-right: 7.5px;
+	}
+
+	.contact-form-1.ff-block .contact-form-1__p-subject 	{
+		padding-left: 7.5px;
+	}
+
+	.contact-form-1.ff-block 	{
+		margin: 0 0 34px 0;
+	}
+	
+}

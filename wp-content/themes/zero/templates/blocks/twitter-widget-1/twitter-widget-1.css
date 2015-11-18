@@ -1,0 +1,57 @@
+.twitter-widget-1.ff-block 	{
+
+}
+.twitter-widget-1.ff-block .tweets 	{
+	padding: 0;
+	margin: 0 0 14px 0;
+	position: relative;
+}
+
+.twitter-widget-1.ff-block .swiper-container,
+.twitter-widget-1.ff-block .swiper-wrapper,
+.twitter-widget-1.ff-block .swiper-slide 	{
+	width: 100%;
+	height: auto;
+}
+
+.twitter-widget-1.ff-block .swiper-pagination-clickable 	{
+	margin: 2px 0 0 0;
+}
+
+.twitter-widget-1.ff-block .swiper-pagination-bullet 	{
+	opacity: 1;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	background-color: transparent !important;
+}
+
+.twitter-widget-1.ff-block .swiper-pagination-bullet:before 	{
+	content: ' ';
+	width: 6px;
+	height: 6px;
+	background-color: red;
+	border-radius: 99px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color: #313131;
+
+	-webkit-transition: 0.14s all ease-out;
+	-moz-transition: 0.14s all ease-out;
+	-o-transition: 0.14s all ease-out;
+	transition: 0.14s all ease-out;
+}
+
+.twitter-widget-1.ff-block .swiper-pagination-bullet-active:before,
+.twitter-widget-1.ff-block .swiper-pagination-bullet:hover:before 	{
+	background-color: #707070;
+	opacity: 1;
+}
+
+.twitter-widget-1.ff-block .tweet-timestamp,
+.twitter-widget-1.ff-block .tweet-timestamp:hover,
+.twitter-widget-1.ff-block .tweet-timestamp:focus 	{
+	text-decoration: none;
+	outline: none;
+}

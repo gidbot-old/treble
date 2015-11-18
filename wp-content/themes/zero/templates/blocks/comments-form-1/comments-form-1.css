@@ -1,0 +1,116 @@
+.comment-respond 	{
+    font-size: 15px;
+    margin: 44px 0 44px 0;
+	padding: 10px 0 40px 0;
+	font-size: 15px;
+}
+
+.comment-respond .comment-reply-title 	{
+	font-weight: 400;
+	margin: 0 0 17px 0;
+	font-size: 18px;
+	text-align: left;
+}
+
+.comments .comment-respond 	{
+	padding-left: 57px;
+	margin: 0;
+}
+
+.comment-respond p 	{
+	margin: 0;
+	padding: 0;
+}
+
+.comment-respond label 	{
+	display: none;
+}
+
+.comment-respond input[type=submit] 	{
+	display: none; /* will be replaced with new submit button via functions.php */
+}
+
+.comment-respond #cancel-comment-reply-link 	{
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #989899;
+	display: block;
+	margin: 7px 0 0 0;
+
+	-webkit-transition: 0.14s all ease-out;
+	-moz-transition: 0.14s all ease-out;
+	-o-transition: 0.14s all ease-out;
+	transition: 0.14s all ease-out;
+}
+
+.comment-respond #cancel-comment-reply-link:before 	{
+	content: '\e082  ';
+	font-family: 'Simple-Line-Icons';
+	font-size: 11px;
+	padding: 0 2px 0 0;
+	position: relative;
+	top: 1px;	
+}
+
+.comment-respond #cancel-comment-reply-link:hover,
+.comment-respond #cancel-comment-reply-link:focus 	{
+	outline: none;
+	text-decoration: none;
+	color: #444445;
+}
+
+.comment-form p.logged-in-as 	{
+	margin: 0 0 17px 0;	
+}
+
+.comment-respond .logged-in-as a 	{
+	text-decoration: underline;
+
+	-webkit-transition: 0.14s all ease-out;
+	-moz-transition: 0.14s all ease-out;
+	-o-transition: 0.14s all ease-out;
+	transition: 0.14s all ease-out;
+}
+
+.comment-respond .logged-in-as a:focus,
+.comment-respond .logged-in-as a:hover 	{
+	opacity: 0.5;
+}
+
+
+/* ********** */
+/* RESPONSIVE */
+/* ********** */
+
+@media (min-width: 768px) {
+
+	.comment-respond #cancel-comment-reply-link 	{
+		display: inline-block;
+		float: right;
+	}	
+
+}
+
+@media (min-width: 992px) {
+
+	.comment-respond .comment-form__p-email,
+	.comment-respond .comment-form__p-website 	{
+		width: 50%;
+		float: left;
+	}
+
+	.comment-respond .comment-form__p-email 	{
+		padding-right: 7.5px;
+	}
+
+	.comment-respond .comment-form__p-website 	{
+		padding-left: 7.5px;
+	}
+
+	.comment-respond .comment-reply-title 	{
+		font-size: 26px;
+	}
+
+	
+}
