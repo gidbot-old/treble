@@ -1,5 +1,5 @@
 .footer-2.ff-section 	{
-	background-color: #0d0d0d;
+	background-color: #E15453;
 	padding: 0 0 16px 0;
 	font-size: 9px;
 	font-weight: 400;
@@ -15,8 +15,9 @@
 	padding-top: 16px;
 }
 
+.footer-2__text,
 .footer-2.ff-section a 	{
-	color: #707070;
+	color: #FFFFFF;
 }
 
 .footer-2.ff-section .social-icons 	{
@@ -44,7 +45,7 @@
 }
 
 .footer-2.ff-section .social-icon a:hover 	{
-	color: #eeeeee;
+	color: #707070;
 }
 
 /* ********** */

@@ -1,11 +1,15 @@
+.ff-font-zocial:hover{
+	color: #808080;
+}
+
 .side-menu-1.ff-section 	{
 	position: fixed;
 	overflow: auto;
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #0d0d0d;
-	color: #707070;
+	background-color: #E15453;
+	color: #FFFFFF;
 	font-size: 14px;
 	line-height: 22px;
 	text-align: center;
@@ -203,7 +207,7 @@ body.side-menu-opened .content-wrapper__overlay:focus 	{
 
 .side-menu-1.ff-section .navigation li a 	{
 	display: block;
-	color: #707070;
+	color: #ffffff;
 	padding: 8px 0 8px 3px; /* left value compensates for letter-spacing */
 	-webkit-transition: 0.14s color ease-out;
 	-moz-transition: 0.14s color ease-out;
@@ -213,7 +217,7 @@ body.side-menu-opened .content-wrapper__overlay:focus 	{
 
 .side-menu-1.ff-section .navigation li a:focus,
 .side-menu-1.ff-section .navigation li a:hover 	{
-	color: rgba(255,255,255,0.95);
+	color: #808080;
 	text-decoration: none;
 	outline: none;
 }
@@ -293,7 +297,7 @@ body.side-menu-opened .content-wrapper__overlay:focus 	{
 
 .side-menu-1.ff-section .side-menu__social a 	{
 	font-size: 10px;
-	color: #707070;
+	color: white;
 	display: block;
 
 	-webkit-transition: 0.14s color ease-out;
@@ -304,7 +308,7 @@ body.side-menu-opened .content-wrapper__overlay:focus 	{
 
 .side-menu-1.ff-section .side-menu__social a:focus,
 .side-menu-1.ff-section .side-menu__social a:hover 	{
-	color: rgba(255,255,255,0.95);
+	color: #808080;
 	text-decoration: none;
 	outline: none;
 }
