@@ -1,0 +1,82 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+// Variables
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Scrollbar
+
+@scrollbar-size: 20px;
+
+@scrollbar-background: #ffffff;
+
+@scrollbar-border-color: @scrollbar-background;  //rgba(0,0,0,0);
+
+@scrollbar-inner-shadow-x: 100px;
+@scrollbar-inner-shadow-y: 100px;
+@scrollbar-inner-shadow-blur: 100px;
+@scrollbar-inner-shadow-spread: 100px;
+@scrollbar-inner-shadow-color: rgba(0,0,0,0);
+
+
+// Track
+
+@scrollbar-track-size: 8px;
+
+@scrollbar-track-background: #ffffff;
+
+@scrollbar-track-border-color: rgba(0,0,0,0);
+@scrollbar-track-border-radius: 99px;
+
+
+@scrollbar-track-inner-shadow-x: 0;
+@scrollbar-track-inner-shadow-y: 0;
+@scrollbar-track-inner-shadow-blur: 0;
+@scrollbar-track-inner-shadow-spread: 0;
+@scrollbar-track-inner-shadow-color: rgba(0,0,0,0);
+
+
+// Thumb
+
+@scrollbar-thumb-size: @scrollbar-track-size;
+
+@scrollbar-thumb-background: #ff2a00;
+
+@scrollbar-thumb-border-color: rgba(0,0,0,0);
+@scrollbar-thumb-border-radius: 99px;
+
+@scrollbar-thumb-inner-shadow-x: 0;
+@scrollbar-thumb-inner-shadow-y: 0;
+@scrollbar-thumb-inner-shadow-blur: 0;
+@scrollbar-thumb-inner-shadow-spread: 0;
+@scrollbar-thumb-inner-shadow-color: rgba(0,0,0,0);
+
+// Thumb hover
+@scrollbar-thumb-background-hover: @scrollbar-thumb-background;
+@scrollbar-thumb-border-color-hover: @scrollbar-thumb-border-color;
+
+@scrollbar-thumb-inner-shadow-x-hover: 0;
+@scrollbar-thumb-inner-shadow-y-hover: 0;
+@scrollbar-thumb-inner-shadow-blur-hover: 0;
+@scrollbar-thumb-inner-shadow-spread-hover: 0;
+@scrollbar-thumb-inner-shadow-color-hover: rgba(0,0,0,0);
+
+// Thumb active
+@scrollbar-thumb-background-active: @scrollbar-thumb-background;
+@scrollbar-thumb-border-color-active: @scrollbar-thumb-border-color;
+
+@scrollbar-thumb-inner-shadow-x-active: 0;
+@scrollbar-thumb-inner-shadow-y-active: 0;
+@scrollbar-thumb-inner-shadow-blur-active: 0;
+@scrollbar-thumb-inner-shadow-spread-active: 0;
+@scrollbar-thumb-inner-shadow-color-active: rgba(0,0,0,0);
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+// Internal variables
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+@scrollbar-size-new: @scrollbar-size; // remove to apply the 1px bugfix (WIP)
+
+// Track and thumb padding
+
+@scrollbar-track-padding: ( @scrollbar-size-new - @scrollbar-track-size) / 2;
+@scrollbar-thumb-padding: ( @scrollbar-size-new - @scrollbar-thumb-size) / 2;

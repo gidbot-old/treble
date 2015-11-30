@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release version="1.1.8" date="2015-08-27">
+        <change>Widget conditional logic - added</change>
+    </release>
+    <release version="1.1.7" date="2014-07-28">
+        <change>Black screen lightbox fixed</change>
+    </release>
+    <release version="1.1.6" date="2014-07-11">
+        <change>Layout fix for repeatable logic</change>
+    </release>
+    <release version="1.1.5" date="2014-07-09">
+        <change>Page archive custom post added into conditional logic</change>
+    </release>
+	<release version="1.1.4" date="2014-07-04">
+        <change>Bugfix - Error in widgets admin screen</change>
+    </release>
+	<release version="1.1.3" date="2014-06-24">
+        <change>Bugfix - Error forgotten use tracy statements</change>
+    </release>
+    <release version="1.1.2" date="2014-06-11">
+        <change>Bugfix - Widget Custom visibility fix </change>
+    </release>
+    <release version="1.1.1" date="2014-06-09">
+        <change>Added time to conditional logic</change>
+        <change>Bugfix - we were inserting array to parse_str </change>
+    </release>
+    <release version="1.1.0" date="2014-05-20">
+        <change>Bugfix</change>
+        <change>Added the ability to Set Visibility directly for each Widget in "Appearance -> Widgets"</change>
+    </release>
+    <release version="1.0.0" date="2014-5-16">
+        <change>Initial release</change>
+    </release>
+</changelog>

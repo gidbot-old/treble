@@ -30,11 +30,16 @@ NOTE: THE REST OF THE CSS IS DIVIDED INTO LOGICAL BLOCKS IN THIS FOLDER: /templa
 */
 
 /* GENERAL */
+@font-face {
+	font-family: Walsheim;
+	src: url('gt-walsheim-black-web.ttf');
+}
 
 html,
 body 	{
 	font-size: 12px;
 	line-height: 1.88888;
+	font-family: Walsheim;
 }
 
 body 	{

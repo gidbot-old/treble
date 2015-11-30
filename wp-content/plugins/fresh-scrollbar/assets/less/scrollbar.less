@@ -1,0 +1,96 @@
+@import 'scrollbar-variables.less';
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+// Styling
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+::-webkit-scrollbar              {
+    width: @scrollbar-size-new;
+    height: @scrollbar-size-new;
+}
+
+::-webkit-scrollbar-button       {
+
+}
+
+::-webkit-scrollbar-track        {
+	background: @scrollbar-background;
+}
+
+::-webkit-scrollbar-track:vertical        {
+	box-shadow: inset 1px 0 0 0 @scrollbar-border-color, inset @scrollbar-inner-shadow-x @scrollbar-inner-shadow-y @scrollbar-inner-shadow-blur @scrollbar-inner-shadow-spread @scrollbar-inner-shadow-color;
+}
+
+::-webkit-scrollbar-track:horizontal        {
+	box-shadow: inset 0 1px 0 0 @scrollbar-border-color, inset @scrollbar-inner-shadow-y @scrollbar-inner-shadow-x @scrollbar-inner-shadow-blur @scrollbar-inner-shadow-spread @scrollbar-inner-shadow-color;
+}
+
+::-webkit-scrollbar-track-piece  {
+	border-radius: @scrollbar-track-border-radius;
+	background: @scrollbar-track-background;
+}
+
+::-webkit-scrollbar-track-piece when (@scrollbar-track-padding > 0) {
+	background-clip: padding-box;
+	border-width: @scrollbar-track-padding;
+	border-style: solid;
+	border-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece:vertical 	{
+	box-shadow: inset 0 0 0 1px @scrollbar-track-border-color, inset @scrollbar-track-inner-shadow-x @scrollbar-track-inner-shadow-y @scrollbar-track-inner-shadow-blur @scrollbar-track-inner-shadow-spread @scrollbar-track-inner-shadow-color;	
+}
+::-webkit-scrollbar-track-piece:horizontal 	{
+	box-shadow: inset 0 0 0 1px @scrollbar-track-border-color, inset @scrollbar-track-inner-shadow-y @scrollbar-track-inner-shadow-x @scrollbar-track-inner-shadow-blur @scrollbar-track-inner-shadow-spread @scrollbar-track-inner-shadow-color;	
+}
+
+::-webkit-scrollbar-thumb        {
+	border-radius: @scrollbar-thumb-border-radius;
+	background: @scrollbar-thumb-background;
+}
+
+::-webkit-scrollbar-thumb when (@scrollbar-thumb-padding > 0) {
+	background-clip: padding-box;
+	border-width: @scrollbar-thumb-padding;
+	border-style: solid;
+	border-color: transparent;
+}
+
+::-webkit-scrollbar-thumb:vertical 	{
+	box-shadow: inset 0 0 0 1px @scrollbar-thumb-border-color, inset @scrollbar-thumb-inner-shadow-x @scrollbar-thumb-inner-shadow-y @scrollbar-thumb-inner-shadow-blur @scrollbar-thumb-inner-shadow-spread @scrollbar-thumb-inner-shadow-color;
+}
+
+::-webkit-scrollbar-thumb:horizontal 	{
+	box-shadow: inset 0 0 0 1px @scrollbar-thumb-border-color, inset @scrollbar-thumb-inner-shadow-y @scrollbar-thumb-inner-shadow-x @scrollbar-thumb-inner-shadow-blur @scrollbar-thumb-inner-shadow-spread @scrollbar-thumb-inner-shadow-color;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover 	{
+	background-color: @scrollbar-thumb-background-hover;
+	box-shadow: inset 0 0 0 1px @scrollbar-thumb-border-color-hover, inset @scrollbar-thumb-inner-shadow-x-hover @scrollbar-thumb-inner-shadow-y-hover @scrollbar-thumb-inner-shadow-blur-hover @scrollbar-thumb-inner-shadow-spread-hover @scrollbar-thumb-inner-shadow-color-hover;
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover 	{
+	background-color: @scrollbar-thumb-background-hover;
+	box-shadow: inset 0 0 0 1px @scrollbar-thumb-border-color-hover, inset @scrollbar-thumb-inner-shadow-y-hover @scrollbar-thumb-inner-shadow-x-hover @scrollbar-thumb-inner-shadow-blur-hover @scrollbar-thumb-inner-shadow-spread-hover @scrollbar-thumb-inner-shadow-color-hover;
+}
+
+::-webkit-scrollbar-thumb:vertical:active 	{
+	background-color: @scrollbar-thumb-background-active;
+	box-shadow: inset 0 0 0 1px @scrollbar-thumb-border-color-active, inset @scrollbar-thumb-inner-shadow-x-active @scrollbar-thumb-inner-shadow-y-active @scrollbar-thumb-inner-shadow-blur-active @scrollbar-thumb-inner-shadow-spread-active @scrollbar-thumb-inner-shadow-color-active;
+}
+
+::-webkit-scrollbar-thumb:horizontal:active 	{
+	background-color: @scrollbar-thumb-background-active;
+	box-shadow: inset 0 0 0 1px @scrollbar-thumb-border-color-active, inset @scrollbar-thumb-inner-shadow-y-active @scrollbar-thumb-inner-shadow-x-active @scrollbar-thumb-inner-shadow-blur-active @scrollbar-thumb-inner-shadow-spread-active @scrollbar-thumb-inner-shadow-color-active;
+}
+
+::-webkit-scrollbar-corner       {
+	background: @scrollbar-background;
+}
+
+::-webkit-resizer                {
+
+}
+
+

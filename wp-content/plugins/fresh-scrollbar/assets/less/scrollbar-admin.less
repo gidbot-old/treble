@@ -1,0 +1,204 @@
+////////////////////////////////////////////////////////////////////////////////////////////////
+// Scrollbar Preview
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+@ff-scrollbar-preview-width: 12px;
+@ff-scrollbar-preview-height: 34px;
+@ff-scrollbar-preview-padding: 2px;
+@ff-scrollbar-preview-border-width: 1px;
+@ff-scrollbar-preview-thumb-width: @ff-scrollbar-preview-width - @ff-scrollbar-preview-border-width * 2 - @ff-scrollbar-preview-padding * 2;
+
+.ff-scrollbar-preview 	{
+	display: inline-block;
+	vertical-align: middle;
+	margin: -4px 12px 0 0;
+}
+
+.ff-scrollbar-preview .ff-scrollbar-preview-scrollbar 	{
+	width: @ff-scrollbar-preview-width;
+	height: @ff-scrollbar-preview-height;
+	border: 1px solid fade(@wpadmin_colors_3, 80%);
+	background-color: #f1f1f1;
+}
+
+.ff-scrollbar-preview .ff-scrollbar-preview-track 	{
+	width: @ff-scrollbar-preview-width - @ff-scrollbar-preview-border-width*2 - @ff-scrollbar-preview-padding*2;
+	height: @ff-scrollbar-preview-height - @ff-scrollbar-preview-border-width*2 - @ff-scrollbar-preview-padding*2;
+	border: 1px solid fade(@wpadmin_colors_3, 80%);
+	background-color: #f1f1f1;
+	border-radius: 99px;
+	margin: @ff-scrollbar-preview-padding;
+}
+
+.ff-scrollbar-preview .ff-scrollbar-preview-thumb 	{
+	width: @ff-scrollbar-preview-thumb-width;
+	//height: (@ff-scrollbar-preview-height - @ff-scrollbar-preview-border-width*2 - @ff-scrollbar-preview-padding*2)/2 /2;
+	height: @ff-scrollbar-preview-thumb-width*2;
+	border: 1px solid fade(@wpadmin_colors_3, 80%);
+	background-color: #f1f1f1;
+	border-radius: 99px;
+	margin: 6px -1px -1px -1px;
+}
+
+.ff-scrollbar-preview.ff-scrollbar-preview-scrollbar .ff-scrollbar-preview-scrollbar,
+.ff-scrollbar-preview.ff-scrollbar-preview-track .ff-scrollbar-preview-track,
+.ff-scrollbar-preview.ff-scrollbar-preview-thumb .ff-scrollbar-preview-thumb 	{
+	background-color: fade(@wpadmin_colors_3, 33%);
+}
+
+h2:hover .ff-scrollbar-preview.ff-scrollbar-preview-thumb .ff-scrollbar-preview-thumb 	{
+	.animation(ff-scrollbar-preview-thumb-anim 0.5s ease-in-out infinite);
+}
+
+
+@-webkit-keyframes ff-scrollbar-preview-thumb-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+@-moz-keyframes ff-scrollbar-preview-thumb-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+@-o-keyframes ff-scrollbar-preview-thumb-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+@keyframes ff-scrollbar-preview-thumb-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+
+h2:hover .ff-scrollbar-preview.ff-scrollbar-preview-track .ff-scrollbar-preview-track 	{
+	.animation(ff-scrollbar-preview-track-anim 0.5s ease-in-out infinite);
+}
+
+
+@-webkit-keyframes ff-scrollbar-preview-track-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+@-moz-keyframes ff-scrollbar-preview-track-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+@-o-keyframes ff-scrollbar-preview-track-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+@keyframes ff-scrollbar-preview-track-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+
+h2:hover .ff-scrollbar-preview.ff-scrollbar-preview-scrollbar .ff-scrollbar-preview-scrollbar 	{
+	.animation(ff-scrollbar-preview-scrollbar-anim 0.5s ease-in-out infinite);
+}
+
+
+@-webkit-keyframes ff-scrollbar-preview-scrollbar-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+@-moz-keyframes ff-scrollbar-preview-scrollbar-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+@-o-keyframes ff-scrollbar-preview-scrollbar-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+@keyframes ff-scrollbar-preview-scrollbar-anim {
+	0%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+	50%{
+		background-color: #f1f1f1;
+	}
+	100%{
+		background-color: fade(@wpadmin_colors_3, 50%);
+	}
+}
+  
+#ff-tab-active, #ff-tab-hover {
+	display:none;
+}
+
+
+

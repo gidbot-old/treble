@@ -1,7 +1,7 @@
 .header-1.ff-section 	{
 	position: fixed;
 	z-index: 2;
-	background-color: rgba(255, 255, 255, 1);
+	/*background-color: #E12035;*/
 	-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.09), 0 2px 4px rgba(0,0,0,0.03);
 	box-shadow: 0 0 0 1px rgba(0,0,0,0.09), 0 2px 4px rgba(0,0,0,0.03);
 	width: 100%;
@@ -254,7 +254,6 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 
 	.header-1.ff-section 	{
 		position: fixed;
-		background: none;
 
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
@@ -374,7 +373,9 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 	.header-1.ff-section .menu-button .background--dark .menu-button__line-1,
 	.header-1.ff-section .menu-button .background--dark .menu-button__line-2,
 	.header-1.ff-section .menu-button .background--dark .menu-button__line-3 	{
-		background-color: rgba(255,255,255,0.95);
+		/*background-color: rgba(255,255,255,0.95);*/
+		background-color: #E12035;
+
 	}
 
 	body.side-menu-opened .header-1.ff-section .menu-button__line-1 	{
