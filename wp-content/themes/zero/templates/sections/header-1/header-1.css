@@ -101,7 +101,7 @@ body.side-menu-opened .header-1.ff-section  	{
 	opacity: 0;
 	position: absolute;
 	top: 20px;
-	left: 15px;	
+	left: 15px;
 
 	-webkit-transition: 0s visibility 0.3131s ease, 0.3131s opacity 0s ease;
 	-moz-transition: 0s visibility 0.3131s ease, 0.3131s opacity 0s ease;
@@ -115,7 +115,7 @@ body.side-menu-opened .header-1.ff-section  	{
 	visibility: visible;
 	opacity: 1;
 	position: static;
-	
+
 	-webkit-transition: 0s visibility 0s ease, 0.3131s opacity 0s ease;
 	-moz-transition: 0s visibility 0s ease, 0.3131s opacity 0s ease;
 	-o-transition: 0s visibility 0s ease, 0.3131s opacity 0s ease;
@@ -158,11 +158,11 @@ body.side-menu-opened .header-1.ff-section .menu-button 	{
 }
 
 .header-1.ff-section .menu-button .background--light 	{
-	background-color: #E12035;
+	/*background-color: #E12035;*/
 }
 
 .header-1.ff-section .menu-button .background--dark 	{
-	color: rgba(255,255,255,0.95);
+	color: #ffffff;
 }
 
 .header-1.ff-section .menu-button:focus,
@@ -188,7 +188,6 @@ body.side-menu-opened .header-1.ff-section .menu-button 	{
 	display: block;
 	width: 20px;
 	height: 2px;
-	background-color: #E12035;
 	position: absolute;
 	left: 0;
 
@@ -356,7 +355,7 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 
 	.header-1.ff-section .menu-button__line-2 	{
 		top: 8px;
-		
+
 	}
 
 	.header-1.ff-section .menu-button__line-3 	{
@@ -393,7 +392,7 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 	.header-1.ff-section .logo img.logo-desktop 	{
 		display: block;
 	}
-	
+
 }
 
 @media (min-width: 992px) {
