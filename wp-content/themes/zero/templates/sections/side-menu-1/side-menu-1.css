@@ -224,7 +224,7 @@ body.side-menu-opened .content-wrapper__overlay:focus 	{
 
 .side-menu-1.ff-section .navigation li.current-menu-item a,
 .side-menu-1.ff-section .navigation li.current_page_item a 	{
-	color: rgba(255,255,255,0.95);
+	color: #808080;
 }
 
 .side-menu-1.ff-section .navigation-item-left,
