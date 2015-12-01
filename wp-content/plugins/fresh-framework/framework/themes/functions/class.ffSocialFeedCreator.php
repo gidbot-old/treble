@@ -41,6 +41,8 @@ class ffSocialFeedCreator {
 			'email'       => array( 'title' => 'Email', 'url_substr' => 'email' ),
 			'mailto'       => array( 'title' => 'Mailto', 'url_substr' => 'mailto' ),
 
+			'soundcloud'          => array( 'title' => 'soundcloud',          'url_substr' => 'soundcloud'          ),
+
 	);
 
 
