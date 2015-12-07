@@ -1,10 +1,10 @@
 .header-1.ff-section 	{
+	background-color: rgba(255, 255, 255, 1);
 	position: fixed;
 	z-index: 2;
 	-webkit-box-shadow: 0 0 0 1px rgba(0,0,0,0.09), 0 2px 4px rgba(0,0,0,0.03);
 	box-shadow: 0 0 0 1px rgba(0,0,0,0.09), 0 2px 4px rgba(0,0,0,0.03);
 	width: 100%;
-
 	-webkit-transition: 0.3s -webkit-transform ease;
 	-moz-transition: 0.3s -moz-transform ease;
 	-o-transition: 0.3s -o-transform ease;
@@ -136,7 +136,7 @@ body.side-menu-opened .header-1.ff-section  	{
 	position: relative;
 	z-index: 1;
 	outline: none;
-	color: #E15453;
+	color:  #E12035;
 	-webkit-transition: 0.18s opacity linear;
 	-moz-transition: 0.18s opacity linear;
 	-o-transition: 0.18s opacity linear;
@@ -158,7 +158,7 @@ body.side-menu-opened .header-1.ff-section .menu-button 	{
 }
 
 .header-1.ff-section .menu-button .background--light 	{
-	/*background-color: #E12035;*/
+	background-color: #E12035;
 }
 
 .header-1.ff-section .menu-button .background--dark 	{
@@ -190,12 +190,12 @@ body.side-menu-opened .header-1.ff-section .menu-button 	{
 	height: 2px;
 	position: absolute;
 	left: 0;
-
+	background-color: #E12035;
 	-webkit-transition: 0.29s -webkit-transform ease, 0.29s width ease, 0.41s top ease, 0.41s left ease, 0.1s opacity ease, 0.3131s background-color ease;
 	-moz-transition: 0.29s -moz-transform ease, 0.29s width ease, 0.41s top ease, 0.41s left ease, 0.1s opacity ease, 0.3131s background-color ease;
 	-o-transition: 0.29s -o-transform ease, 0.29s width ease, 0.41s top ease, 0.41s left ease, 0.1s opacity ease, 0.3131s background-color ease;
 	transition: 0.29s transform ease, 0.29s width ease, 0.41s top ease, 0.41s left ease, 0.1s opacity ease, 0.3131s background-color ease;
-	/*transition: 2s all ease-out;*/
+
 }
 
 .header-1.ff-section .menu-button__line-1 	{
@@ -255,6 +255,7 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
+		background: none;
 	}
 
 	body.side-menu-opened .header-1.ff-section  	{
