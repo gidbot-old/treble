@@ -21,8 +21,14 @@
 .post-subtitle a:hover {
 	text-decoration: none;
 	/* To Change */
-	color: #E12035 !important;
+	color: #f39fa8 !important
 }
+
+.post-subtitle a:hover::selection {
+	color: #ffffff !important;
+}
+
+
 
 .blog-post-1.ff-section 	{
 	margin: 0 0 0 0;
