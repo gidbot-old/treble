@@ -1,3 +1,29 @@
+.blog-post-1.ff-section .read-more-button {
+	font-family: "Walsheim-Medium" !important;
+	font-size: 12px;
+	color: #acacac;
+}
+
+.blog-post-1.ff-section .post-title {
+	font-family: "Walsheim-Medium" !important;
+	font-size: 42px;
+	color: #000000;
+}
+
+.post-subtitle a {
+	font-size: 20px;
+	font-family: "Walsheim-Medium" !important;
+	font-style: italic;
+	text-decoration: none;
+	color: #C5172A !important;
+}
+
+.post-subtitle a:hover {
+	text-decoration: none;
+	/* To Change */
+	color: #E12035 !important;
+}
+
 .blog-post-1.ff-section 	{
 	margin: 0 0 0 0;
 	position: relative;

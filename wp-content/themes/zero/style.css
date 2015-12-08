@@ -31,15 +31,26 @@ NOTE: THE REST OF THE CSS IS DIVIDED INTO LOGICAL BLOCKS IN THIS FOLDER: /templa
 
 /* GENERAL */
 @font-face {
-	font-family: Walsheim;
-	src: url('gt-walsheim-black-web.ttf');
+	font-family: Walsheim-Bold;
+	src: url('fonts/gt-walsheim-black-web.ttf');
+}
+@font-face {
+	font-family: Walsheim-Light;
+	src: url('fonts/gt-walsheim-light-web.ttf');
+}
+
+@font-face {
+	font-family: Walsheim-Medium;
+	src: url('fonts/gt-walsheim-medium-web.ttf');
 }
 
 html,
 body 	{
-	font-size: 12px;
-	line-height: 1.88888;
-	font-family: Walsheim;
+	font-size: 16px !important;
+	line-height: 1.88888 !important;
+	color: #000000 !important;
+	font-family: "Walsheim-Light" !important;
+
 }
 
 body 	{
@@ -120,11 +131,11 @@ a:hover 	{
 }
 
 ::selection {
-	background: #feff81; /* WebKit/Blink Browsers */
+	background: #f39fa8; /* WebKit/Blink Browsers */
 	border-radius: 99px;
 }
 ::-moz-selection {
-	background: #feff81; /* Gecko Browsers */
+	background: #f39fa8; /* Gecko Browsers */
 	border-radius: 99px;
 }
 

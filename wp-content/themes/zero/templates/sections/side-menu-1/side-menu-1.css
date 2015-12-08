@@ -1,20 +1,25 @@
+.side-menu-1.ff-section .navigation {
+	font-family: "Walsheim-Bold" !important;
+}
+
 .ff-font-zocial:hover{
-	color: #808080;
+	color: #DF1E33;
 }
 
 .side-menu-1.ff-section 	{
 	position: fixed;
 	overflow: auto;
+
 	top: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #E15453;
+	background-color: #111111;
 	color: #FFFFFF;
 	font-size: 14px;
 	line-height: 22px;
 	text-align: center;
 	width: 210px;
-	
+
     -webkit-overflow-scrolling: touch;
 
 	-webkit-transform: translate3d(210px,0,0);
@@ -217,14 +222,14 @@ body.side-menu-opened .content-wrapper__overlay:focus 	{
 
 .side-menu-1.ff-section .navigation li a:focus,
 .side-menu-1.ff-section .navigation li a:hover 	{
-	color: #808080;
+	color: #DF1E33;
 	text-decoration: none;
 	outline: none;
 }
 
 .side-menu-1.ff-section .navigation li.current-menu-item a,
 .side-menu-1.ff-section .navigation li.current_page_item a 	{
-	color: #808080;
+	color: #DF1E33;
 }
 
 .side-menu-1.ff-section .navigation-item-left,

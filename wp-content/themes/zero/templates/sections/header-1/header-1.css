@@ -1,3 +1,9 @@
+
+
+.header-1.ff-section .menu-button__label {
+	font-family: "Walsheim-Medium" !important;
+}
+
 .header-1.ff-section 	{
 	background-color: rgba(255, 255, 255, 1);
 	position: fixed;
@@ -299,7 +305,7 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 		font-size: 11px;
 		line-height: 18px;
 		letter-spacing: 2px;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 		margin-left: 9px;
 		-webkit-transition: 0.3131s color ease;
 		-moz-transition: 0.3131s color ease;

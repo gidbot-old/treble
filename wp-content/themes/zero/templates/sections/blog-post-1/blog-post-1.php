@@ -42,6 +42,12 @@ if( is_page() ){
 								<?php the_title(); ?>
 							</a>
 						</h3>
+
+						<h4 class="post-subtitle post-expand-toggle">
+							<a href="<?php the_permalink(); ?>">
+								<?php the_subtitle(); ?>
+							</a>
+						</h4>
 						<?php if( $query->get('show-read-more') ){ ?>
 						<div class="post-collapser">
 							<a class="read-more-button post-expand-toggle" href="<?php the_permalink(); ?>">
