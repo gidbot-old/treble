@@ -1,5 +1,5 @@
 .side-menu-1.ff-section .navigation {
-	font-family: "Walsheim-Bold" !important;
+	font-family: "Walsheim-Medium" !important;
 }
 
 .ff-font-zocial:hover{
@@ -360,7 +360,7 @@ body.side-menu-opened .content-wrapper__overlay:focus 	{
 	}
 
 	.side-menu-1.ff-section .logo-wrapper 	{
-		padding: 116px 37px 79px 37px;
+		padding: 116px 37px 50px 37px;
 	}
 
 	.side-menu-1.ff-section .logo-wrapper img.logo-mobile 	{

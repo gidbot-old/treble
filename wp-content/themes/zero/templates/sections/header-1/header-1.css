@@ -2,6 +2,7 @@
 
 .header-1.ff-section .menu-button__label {
 	font-family: "Walsheim-Medium" !important;
+	text-transform: uppercase;
 }
 
 .header-1.ff-section 	{
@@ -142,7 +143,7 @@ body.side-menu-opened .header-1.ff-section  	{
 	position: relative;
 	z-index: 1;
 	outline: none;
-	color:  #E12035;
+	color:  #df1e33;
 	-webkit-transition: 0.18s opacity linear;
 	-moz-transition: 0.18s opacity linear;
 	-o-transition: 0.18s opacity linear;
@@ -164,7 +165,7 @@ body.side-menu-opened .header-1.ff-section .menu-button 	{
 }
 
 .header-1.ff-section .menu-button .background--light 	{
-	background-color: #E12035;
+	background-color: #df1e33;
 }
 
 .header-1.ff-section .menu-button .background--dark 	{
@@ -196,7 +197,7 @@ body.side-menu-opened .header-1.ff-section .menu-button 	{
 	height: 2px;
 	position: absolute;
 	left: 0;
-	background-color: #E12035;
+	background-color: #df1e33;
 	-webkit-transition: 0.29s -webkit-transform ease, 0.29s width ease, 0.41s top ease, 0.41s left ease, 0.1s opacity ease, 0.3131s background-color ease;
 	-moz-transition: 0.29s -moz-transform ease, 0.29s width ease, 0.41s top ease, 0.41s left ease, 0.1s opacity ease, 0.3131s background-color ease;
 	-o-transition: 0.29s -o-transform ease, 0.29s width ease, 0.41s top ease, 0.41s left ease, 0.1s opacity ease, 0.3131s background-color ease;
@@ -353,7 +354,7 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 	.header-1.ff-section .menu-button__line-2,
 	.header-1.ff-section .menu-button__line-3 	{
 		width: 17px;
-		background-color: #E12035;
+		background-color: #df1e33;
 	}
 
 	.header-1.ff-section .menu-button__line-1 	{
@@ -372,7 +373,7 @@ body.side-menu-opened .header-1.ff-section .menu-button__line-3 	{
 	.header-1.ff-section .menu-button .background--light .menu-button__line-1,
 	.header-1.ff-section .menu-button .background--light .menu-button__line-2,
 	.header-1.ff-section .menu-button .background--light .menu-button__line-3 	{
-		background-color: #E12035;
+		background-color: #df1e33;
 
 	}
 
