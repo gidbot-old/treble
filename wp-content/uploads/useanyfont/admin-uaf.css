@@ -1,19 +1,19 @@
 			@font-face {
 				font-family: 'walsheim-bold';
 				font-style: normal;
-				src: url('//localhost:8888/wp-content/uploads/useanyfont/151211043303Walsheim-Bold.eot');
-				src: local('walsheim-bold'), url('//localhost:8888/wp-content/uploads/useanyfont/151211043303Walsheim-Bold.eot') format('embedded-opentype'), url('//localhost:8888/wp-content/uploads/useanyfont/151211043303Walsheim-Bold.woff') format('woff');
+				src: url('//blog.treble.fm/wp-content/uploads/useanyfont/151211045652walsheim-bold.eot');
+				src: local('walsheim-bold'), url('//blog.treble.fm/wp-content/uploads/useanyfont/151211045652walsheim-bold.eot') format('embedded-opentype'), url('//blog.treble.fm/wp-content/uploads/useanyfont/151211045652walsheim-bold.woff') format('woff');
 			}
 					@font-face {
 				font-family: 'walsheim-light';
 				font-style: normal;
-				src: url('//localhost:8888/wp-content/uploads/useanyfont/151211043755walsheim-light.eot');
-				src: local('walsheim-light'), url('//localhost:8888/wp-content/uploads/useanyfont/151211043755walsheim-light.eot') format('embedded-opentype'), url('//localhost:8888/wp-content/uploads/useanyfont/151211043755walsheim-light.woff') format('woff');
+				src: url('//blog.treble.fm/wp-content/uploads/useanyfont/151211045721walsheim-light.eot');
+				src: local('walsheim-light'), url('//blog.treble.fm/wp-content/uploads/useanyfont/151211045721walsheim-light.eot') format('embedded-opentype'), url('//blog.treble.fm/wp-content/uploads/useanyfont/151211045721walsheim-light.woff') format('woff');
 			}
 					@font-face {
 				font-family: 'walsheim-medium';
 				font-style: normal;
-				src: url('//localhost:8888/wp-content/uploads/useanyfont/151211043822walsheim-medium.eot');
-				src: local('walsheim-medium'), url('//localhost:8888/wp-content/uploads/useanyfont/151211043822walsheim-medium.eot') format('embedded-opentype'), url('//localhost:8888/wp-content/uploads/useanyfont/151211043822walsheim-medium.woff') format('woff');
+				src: url('//blog.treble.fm/wp-content/uploads/useanyfont/151211045757walsheim-medium.eot');
+				src: local('walsheim-medium'), url('//blog.treble.fm/wp-content/uploads/useanyfont/151211045757walsheim-medium.eot') format('embedded-opentype'), url('//blog.treble.fm/wp-content/uploads/useanyfont/151211045757walsheim-medium.woff') format('woff');
 			}
 		
