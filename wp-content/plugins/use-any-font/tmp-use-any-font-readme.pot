@@ -1,0 +1,416 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Use Any Font"
+msgstr ""
+
+#. Short description.
+msgid "Embed any font in your website"
+msgstr ""
+
+#. Screenshot description.
+msgid "Screenshot #1. Use Any Font Demo"
+msgstr ""
+
+#. Screenshot description.
+msgid "Screenshot #2. Use Any Font Plugin Setup"
+msgstr ""
+
+#. Screenshot description.
+msgid "Screenshot #3. Assign font directly from Wordpress Editor"
+msgstr ""
+
+#. Screenshot description.
+msgid "Screenshot #4. Font list not showing in editor."
+msgstr ""
+
+#. Screenshot description.
+msgid "Screenshot #5. Disable font list in editor."
+msgstr ""
+
+#. Found in description list item.
+msgid "Quick and easy to setup. No css or any rocket science knowledge needed. "
+msgstr ""
+
+#. Found in description list item.
+msgid "Support all major browsers including IE 6+, Firefox, Chrome, Safari, IOS, Andriod, Opera and more."
+msgstr ""
+
+#. Found in description list item.
+msgid "Font conversion within the plugin interface font uploader."
+msgstr ""
+
+#. Found in description list item.
+msgid "Use uploaded font directly from Editor"
+msgstr ""
+
+#. Found in description list item.
+msgid "Supports font format including ttf, otf, woff. The required fonts are converted automatically."
+msgstr ""
+
+#. Found in description list item.
+msgid "Accepts font file upto 15 MB."
+msgstr ""
+
+#. Found in description list item.
+msgid "Embed fonts using @font-face css. SEO friendly and quick loading."
+msgstr ""
+
+#. Found in description list item.
+msgid "Multiple fonts can be used."
+msgstr ""
+
+#. Found in description list item.
+msgid "Faster load time as your custom fonts are stored on your own server."
+msgstr ""
+
+#. Found in description list item.
+msgid "Quick font assign interface. You can select pre defined html tags or assign it to custom css."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://dineshkarki.com.np/forums/forum/use-any-fonts\">Support Forum</a> to quickly resolve your issues."
+msgstr ""
+
+#. Found in description list item.
+msgid "<a href=\"http://dineshkarki.com.np/rectify-my-problem\">Rectify My Problem</a> for personal assitance."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Use any font you wish and give your site a elegant look. No css knowledge required."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Click <a href=\"http://dineshkarki.com.np/use-any-font/demo\">here</a> for Use Any Font working demo."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Use Any Font gives you freedom to use any font in your website. It is not like other font embed services which gives you countable number of fonts to select from neither the one that stores your font in remote server. You can use any font if you have its font format (ttf,otf) without being dependent to other's server uptime."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Features"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "You need API key to connect to our server for font conversion. Our server converts your font and sends it back."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Offer your contribution (Free for 1 font, $10 to $100) and get the API key from <a href=\"http://dnesscarkey.com/font-convertor/api/\">here</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid ""
+"<strong>Installation Video</strong>\n"
+"[youtube http://www.youtube.com/watch?v=QzGaWIPVwEk]"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Note : We don't store your fonts in our server neither any of your information except the API key details. Our server deletes the temporary file after the conversion is done."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "We don't respond to support tickets created here. Please visit our <a href=\"http://dineshkarki.com.np/forums/forum/use-any-fonts\">support forum</a> for your issues."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload the plugin use-any-font files to the <code>/wp-content/plugins/</code> directory"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the use-any-font plugin through the 'Plugins' menu in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Get the API key and verify it (Needed to connect to server for font conversion)."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Select Use Any Font under Settings"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload your font."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Assign your font to element."
+msgstr ""
+
+#. Found in installation list item.
+msgid "You can also assign the font directly from wordpress page/post editor."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Your fonts are working in your site now."
+msgstr ""
+
+#. Found in installation list item.
+msgid "You may refer to Screenshots tab for visual instructions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Secure file upload URL for Default Js Uploader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed validation for PHP uploader"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Sanitize font name "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Test with 4.3.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed host name lookup issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added SSL for font upload path"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Test with 4.3"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "License key trim added. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Font convertor url change."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added relative font path settings. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Css version system."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add js extension validation for font file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Ajax Font Upload"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Couldn't receive font file for conversion issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Font size increase to 10 MB"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed js validation issue."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add server side validation for font file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed rarely used font formats from being upload. They were making font onvertor server down repeatedly."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed name validation issue"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested to work with wordpress 4.0"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Jquery Validation Plugin Updated"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Using wp_remote_get inplace of wp_remove_fopen for API Key"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Compatible with 3.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed font list issue in editor for 3.9"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added font formats (dfont, suit)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated FAQ and Screenshots."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested with 3.8.1"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Support for SSL (https)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Additional settings to disbale font list in wordpress editor."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested with 3.8"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Network Site Support"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Assign font directly from Wordpress Editor"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Tested with 3.5.2"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Add woff and svg font format"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Major update"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Supports more font format now."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Better error handling"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added hyperlink (a tag) in default element select."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added file upload validation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added server connectivity test."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed font not loading issue when there is space in font file name."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Instructions in Plugin Interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First Release"
+msgstr ""
+
+#. Found in faq header.
+msgid "Which font format does plugin accepts ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What is the max font file size ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Mentioned 15 MB here but in font upload section it says less. Why ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does it works with multiple fonts ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do i need to manually convert fonts ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Font uploaded from Use Any Font is not showing in wordpress editor ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I want to disable font list from wordpress editor  ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I moved my server path and the font is not working now. Why ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where are my fonts stored ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does my font depends upon plugin's server uptime ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Not working for me. What can i do ?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Currently, ttf, otf, woff font format are accepted."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Font file upto 15MB is acceptable. However, we suggest you to use smaller ones as far as possible. The font file size directly affects your site load time."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Ya, our plugin accept upto 15 MB font file but your wordpress installation have limitation for file size. Please check this link to increase it http://www.wpbeginner.com/wp-tutorials/how-to-increase-the-maximum-file-upload-size-in-wordpress/"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Ya, it works with multiple fonts. For multiple font conversion request, you need to get the Premium Key."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, you don't need to do it yourself. Just upload your font(supports most of the font format), and the plugin does the rest."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please check screenshot #4 in Screenshots tab."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Please check screenshot #5 in Screenshots tab."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The plugin is still searching font from your old path. You can delete your old uploaded font and re-upload and re-assign it."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "All the fonts are stored in your own server. Our server only convert the fonts and sends back."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, our server is needed during font conversion only. After that all fonts are served from your own server."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "You can check our <a href=\"http://dineshkarki.com.np/forums/forum/use-any-fonts\">support forum</a>, or check <a href=\"http://dineshkarki.com.np/use-any-font/use-any-font-known-issues\">known issues</a> or ask to <a href=\"http://dineshkarki.com.np/rectify-my-problem\">Rectify Your Problem</a>"
+msgstr ""

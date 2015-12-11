@@ -30,26 +30,26 @@ NOTE: THE REST OF THE CSS IS DIVIDED INTO LOGICAL BLOCKS IN THIS FOLDER: /templa
 */
 
 /* GENERAL */
-@font-face {
-	font-family: Walsheim-Bold;
-	src: url('fonts/gt-walsheim-black-web.ttf');
-}
-@font-face {
-	font-family: Walsheim-Light;
-	src: url('fonts/gt-walsheim-light-web.ttf');
-}
+/*@font-face {*/
+	/*font-family: Walsheim-Bold;*/
+	/*src: url('fonts/gt-walsheim-black-web.ttf');*/
+/*}*/
+/*@font-face {*/
+	/*font-family: Walsheim-Light;*/
+	/*src: url('fonts/gt-walsheim-light-web.ttf');*/
+/*}*/
 
-@font-face {
-	font-family: Walsheim-Medium;
-	src: url('fonts/gt-walsheim-medium-web.ttf');
-}
+/*@font-face {*/
+	/*font-family: Walsheim-Medium;*/
+	/*src: url('fonts/gt-walsheim-medium-web.ttf');*/
+/*}*/
 
 html,
 body 	{
 	font-size: 16px !important;
 	line-height: 1.88888 !important;
 	color: #000000 !important;
-	font-family: "Walsheim-Light" !important;
+	font-family: "walsheim-light" !important;
 
 }
 
