@@ -2,6 +2,10 @@
 	font-family: "Walsheim-Medium" !important;
 }
 
+.social-icon:hover .ff-font-zocial {
+	color: #808080 !important;
+}
+
 .footer-2.ff-section 	{
 	background-color: #df1e33;
 	padding: 0 0 16px 0;
