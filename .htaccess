@@ -11,8 +11,8 @@ RewriteRule . /index.php [L]
 
 # END WordPress
 
-
 <IfModule mod_headers.c>
-    Header set Access-Control-Allow-Origin "blog.treble.fm"
-    Header set Access-Control-Allow-Origin "www.blog.treble.fm"
+<FilesMatch "\.(svg|ttf|otf|eot|woff|woff2)$">
+    Header set Access-Control-Allow-Origin "*"
+</FilesMatch>
 </IfModule>
