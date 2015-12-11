@@ -34,22 +34,22 @@ NOTE: THE REST OF THE CSS IS DIVIDED INTO LOGICAL BLOCKS IN THIS FOLDER: /templa
 	/*font-family: Walsheim-Bold;*/
 	/*src: url('fonts/gt-walsheim-black-web.ttf');*/
 /*}*/
-/*@font-face {*/
-	/*font-family: Walsheim-Light;*/
-	/*src: url('fonts/gt-walsheim-light-web.ttf');*/
-/*}*/
+@font-face {
+	font-family: Walsheim-Light;
+	src: url('http://blog.treble.fm/wp-content/uploads/useanyfont/151211045721walsheim-light.woff');
+}
 
-/*@font-face {*/
-	/*font-family: Walsheim-Medium;*/
-	/*src: url('fonts/gt-walsheim-medium-web.ttf');*/
-/*}*/
+@font-face {
+	font-family: Walsheim-Medium;
+	src: url('http://blog.treble.fm/wp-content/uploads/useanyfont/151211045757walsheim-medium.woff');
+}
 
 html,
 body 	{
 	font-size: 16px !important;
 	line-height: 1.88888 !important;
 	color: #000000 !important;
-	font-family: "walsheim-light" !important;
+	font-family: "Walsheim-Light" !important;
 
 }
 
